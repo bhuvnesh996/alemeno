@@ -1,0 +1,44 @@
+# Alemeno 
+Fullstack Developer Hiring Assignment
+I made few changes according to my convenience for instance i use 3rd party api for course data, please give me feedback 
+
+Frontend
+
+Navigate to the client folder:
+cd client
+
+Install dependencies:
+npm install
+
+
+Start the frontend server:
+npm run dev
+The frontend will be running at http://localhost:5173.
+
+Backend
+Open a new terminal window.
+
+Navigate to the server folder:
+cd server
+
+
+Install dependencies:
+npm install
+
+Start the backend server using nodemon:
+nodemon index.js
+
+The server will be running at http://localhost:3000
+
+API Endpoints
+Authentication:
+Login: POST http://localhost:3000/auth/login
+Register: POST http://localhost:3000/auth/register
+Course Operations:
+Get Courses List: GET http://localhost:3000/api/courses
+Get Course Details: GET http://localhost:3000/api/courses/:courseID
+Enrollment Actions:
+Enroll in a Course: POST http://localhost:3000/api/enrollment
+Get Enrolled Courses: GET http://localhost:3000/api/enrollment/:user
+
+
